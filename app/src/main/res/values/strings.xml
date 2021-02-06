@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IT Memes</string>
+    <string name="baseURL">https://developerslife.ru</string>
+    <string name="wait">Wait</string>
+    <string name="gettingData">Getting the data</string>
+    <string name="loadError">Load Error</string>
+    <string name="connectionError">There is no internet connection</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string-array name="categories">
+        <item>Random</item>
+        <item>Top</item>
+        <item>Latest</item>
+    </string-array>
+</resources>
