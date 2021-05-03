@@ -19,15 +19,23 @@
         android:layout_height="300dp"
         android:layout_margin="30dp"
         android:radius="10dp"/>
-    <TextView
-        android:id="@+id/textView"
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:typeface="monospace" />
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            />
+    </ScrollView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
